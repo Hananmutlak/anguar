@@ -1,0 +1,22 @@
+/* header.component.scss */
+nav {
+    background: #2c3e50;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    
+    a {
+      color: white;
+      text-decoration: none;
+      margin-right: 1rem;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      
+      &.active {
+        background: #3498db;
+      }
+      
+      &:hover {
+        background: #2980b9;
+      }
+    }
+  }

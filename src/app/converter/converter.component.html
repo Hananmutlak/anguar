@@ -1,0 +1,25 @@
+<div class="converter-container">
+    <section class="length-conversion">
+      <h2>Length Converter</h2>
+      <div class="input-group">
+        <label>Meters:</label>
+        <input type="number" [(ngModel)]="meters" (input)="convertLength()">
+      </div>
+      <div class="input-group">
+        <label>Feet:</label>
+        <input type="number" [(ngModel)]="feet" (input)="meters = feet / 3.28084">
+      </div>
+    </section>
+  
+    <section class="temp-conversion">
+      <h2>Temperature Converter</h2>
+      <div class="input-group">
+        <label>Celsius:</label>
+        <input type="number" [(ngModel)]="celsius" (input)="convertTemperature()">
+      </div>
+      <div class="input-group">
+        <label>Fahrenheit:</label>
+        <input type="number" [(ngModel)]="fahrenheit" (input)="celsius = (fahrenheit - 32) * 5/9">
+      </div>
+    </section>
+  </div>

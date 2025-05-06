@@ -1,0 +1,75 @@
+/* You can add global styles to this file, and also import other style files */
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  nav {
+    background: #9cbddd;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    
+    a {
+      color: white;
+      text-decoration: none;
+      margin-right: 1rem;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      
+      &.active {
+        background: #dbae34;
+      }
+      
+      &:hover {
+        background: #666a6d;
+      }
+    }
+  }
+  
+  .converter-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
+    section {
+      margin-bottom: 2rem;
+      padding: 1rem;
+      background: #f8f9fa;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+  
+    .input-group {
+      margin: 1rem 0;
+      
+      label {
+        display: inline-block;
+        width: 120px;
+      }
+      
+      input {
+        padding: 8px;
+        width: 200px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+      }
+    }
+  }
+  .banner {
+    text-align: center;
+    padding: 2rem;
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin: 1rem 0;
+    }
+  }
